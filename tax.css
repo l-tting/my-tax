@@ -70,9 +70,12 @@ img{
     color:gold;
  }
  .copy{
+    margin-top: 6%;
     margin-left: 40%;
     font-weight: bold;
  }
  .icon{
+    
     margin-left: 94%;
+    margin-top: 3%;
  }
