@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="tax.css">
+</head>
+
+<body>
+    <style>
+
+    </style>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="tax.jpeg" alt="">
+                <a class="navbar-brand" href="#" style="font-weight: bolder;">i-TAX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+
+                    </ul>
+                    <span class="navbar-text">
+                        File My Returns
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="salary" class="top">
+            <p class="fw-bold">INCOME TAX CALCULATOR KENYA</p>
+            <p class="fw-bolder">Find out your net pay after tax with <span class="i">i-Tax</span></p>
+
+            <form id="form">
+                <label for="basic_salary" class="input">Enter basic salary</label>
+                <input type="number" id="basic" placeholder="KSH.">
+                <label for="basic_salary" class="input">Enter benefits</label>
+                <input type="number" id="benefits" placeholder="KSH."><br><br>
+                <!-- <input type="submit" value="Calculate" class="calculate"><br><br> -->
+                <button type="submit" class="btn btn-primary btn-lg" style="margin-left: 43%;">Calculate</button>
+
+            </form>
+        </div>
+
+        <div id="table" class="mytable">
+
+            <table class="table">
+                <thead>
+
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td class="one">Gross Salary</td>
+                        <td id="gross" class="two"></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="one">NHIF</td>
+                        <td id="nhif" class="two"></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="one">NSSF</td>
+                        <td id="nssf" class="two"></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="one">NHDF</td>
+                        <td id="nhdf" class="two"></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="one">Taxable Income</td>
+                        <td id="taxable" class="two"></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="one">Payee</td>
+                        <td id="payee" class="two"></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="one">Net Salary</td>
+                        <td id="net" class="two"></td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="bottom">
+<p class="icon">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-phone"></i>
+</p>
+            <p class="copy">
+                <i class="fa-solid fa-copyright"></i>
+                i-Tax Kenya.All Rights Reserved</p>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="tax.js"></script>
+</body>
+
+</html>

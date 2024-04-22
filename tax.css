@@ -1,0 +1,78 @@
+table{
+    border: 1px solid;
+    width: 550px;
+    height: 100px;
+}
+
+body{
+    background-image: url(mny.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+border: 1px solid;
+width: 50%;
+font-weight: bolder;
+}
+.mytable{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.top{
+    margin-top: 3%;
+}
+.income{
+    font-weight: bolder;
+    color:goldenrod;
+}
+.find{
+    font-weight: bolder;
+}
+.input{
+    font-weight: bolder;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+.calculate{
+    font-weight: bolder;
+    color:gold;
+    margin-left: 43%;
+    width: 10%;
+    font-size: large;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+.two{
+    border: 1px solid;
+}
+.nav-item{
+    margin-left: 75%;
+}
+.navbar-text{
+    margin-right: 20%;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+img{
+    position: absolute;
+    margin-left: 6%;
+    width: 3%;
+    height: auto;
+}
+ .fw-bold{
+    color:gold;
+    font-weight: bolder;
+    font-size: larger;
+ }
+ .i{
+    color:gold;
+ }
+ .copy{
+    margin-left: 40%;
+    font-weight: bold;
+ }
+ .icon{
+    margin-left: 94%;
+ }
