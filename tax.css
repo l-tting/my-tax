@@ -47,7 +47,7 @@ font-weight: bolder;
     border: 1px solid;
 }
 .nav-item{
-    margin-left: 75%;
+    margin-left: 65%;
 }
 .navbar-text{
     margin-right: 20%;
@@ -72,10 +72,19 @@ img{
  .copy{
     margin-top: 6%;
     margin-left: 40%;
-    font-weight: bold;
+    font-weight:900;
+    color: blue;
  }
  .icon{
     
     margin-left: 94%;
     margin-top: 3%;
  }
+ .fa-brands{
+    font-size: large;
+   position: relative;
+   left: 93%;
+   margin-left: 4px;
+   margin-top: 2%;
+ }
+ 
